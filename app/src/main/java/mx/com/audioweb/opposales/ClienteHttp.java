@@ -30,7 +30,7 @@ import java.util.List;
  */
 public class ClienteHttp {
 
-    public static final String URL = "http://oppomobility.mx/webServices/";
+    public static final String URL = "Insertar URL Aqui";
     private static final String DATEF = "yyyy-MM-dd HH:mm:ss";
     private Gson gson = new GsonBuilder().setDateFormat(DATEF).create();
 
