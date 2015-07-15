@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context="mx.com.audioweb.opposales.Login"
+                android:background="@drawable/background_splash_login">
+
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp" android:src="@drawable/ic_launcher"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="  Iniciar Sesion  "
+            android:background="@drawable/custom_button"
+            android:id="@+id/button4" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"
+            android:layout_marginBottom="129dp"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Codigo"
+            android:ems="10"
+            android:id="@+id/editCode" android:layout_centerVertical="true" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

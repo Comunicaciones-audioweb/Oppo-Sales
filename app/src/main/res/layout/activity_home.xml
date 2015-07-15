@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_menu"
+    tools:context="mx.com.audioweb.opposales.Home">
+
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_btn_ac"
+            android:id="@+id/button" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
+            android:layout_marginTop="135dp"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_btn_livestreming"
+            android:id="@+id/button2" android:layout_below="@+id/button" android:layout_centerHorizontal="true"
+            android:layout_marginTop="127dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Audioconferencia"
+            android:id="@+id/textView" android:layout_below="@+id/button" android:layout_centerHorizontal="true"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LiveStreaming"
+            android:id="@+id/textView2" android:layout_below="@+id/button2" android:layout_centerHorizontal="true"/>
+</RelativeLayout>
